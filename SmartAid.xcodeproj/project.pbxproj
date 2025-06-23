@@ -11,6 +11,18 @@
 		DAF3D6832E01C1F400EAAD8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6822E01C1F400EAAD8B /* ContentView.swift */; };
 		DAF3D6852E01C1F600EAAD8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF3D6842E01C1F600EAAD8B /* Assets.xcassets */; };
 		DAF3D6882E01C1F600EAAD8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF3D6872E01C1F600EAAD8B /* Preview Assets.xcassets */; };
+		DAF3D6902E01C25200EAAD8B /* SymtomCheckerBotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D68F2E01C25200EAAD8B /* SymtomCheckerBotView.swift */; };
+		DAF3D6922E01C2A100EAAD8B /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6912E01C2A100EAAD8B /* ChatViewModel.swift */; };
+		DAF3D6952E01C3DE00EAAD8B /* MedicineReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6942E01C3DE00EAAD8B /* MedicineReminderView.swift */; };
+		DAF3D6972E01C43000EAAD8B /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6962E01C43000EAAD8B /* Reminder.swift */; };
+		DAF3D6992E01C67E00EAAD8B /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6982E01C67E00EAAD8B /* NotificationManager.swift */; };
+		DAF3D69B2E01DFC800EAAD8B /* MedicationReminderViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D69A2E01DFC800EAAD8B /* MedicationReminderViewmodel.swift */; };
+		DAF3D69D2E0465A900EAAD8B /* EmergencyContactLocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D69C2E0465A900EAAD8B /* EmergencyContactLocationViewModel.swift */; };
+		DAF3D6A22E04661F00EAAD8B /* EmergencyContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6A12E04661F00EAAD8B /* EmergencyContact.swift */; };
+		DAF3D6A42E04666900EAAD8B /* EmergencyContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6A32E04666900EAAD8B /* EmergencyContactView.swift */; };
+		DAF3D6A62E0466B900EAAD8B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6A52E0466B900EAAD8B /* LocationManager.swift */; };
+		DAF3D6A92E07262000EAAD8B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6A82E07262000EAAD8B /* HomeView.swift */; };
+		DAF3D6AC2E072AAF00EAAD8B /* HomeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6AB2E072AAF00EAAD8B /* HomeButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +31,18 @@
 		DAF3D6822E01C1F400EAAD8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DAF3D6842E01C1F600EAAD8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAF3D6872E01C1F600EAAD8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAF3D68F2E01C25200EAAD8B /* SymtomCheckerBotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymtomCheckerBotView.swift; sourceTree = "<group>"; };
+		DAF3D6912E01C2A100EAAD8B /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		DAF3D6942E01C3DE00EAAD8B /* MedicineReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineReminderView.swift; sourceTree = "<group>"; };
+		DAF3D6962E01C43000EAAD8B /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		DAF3D6982E01C67E00EAAD8B /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		DAF3D69A2E01DFC800EAAD8B /* MedicationReminderViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationReminderViewmodel.swift; sourceTree = "<group>"; };
+		DAF3D69C2E0465A900EAAD8B /* EmergencyContactLocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactLocationViewModel.swift; sourceTree = "<group>"; };
+		DAF3D6A12E04661F00EAAD8B /* EmergencyContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContact.swift; sourceTree = "<group>"; };
+		DAF3D6A32E04666900EAAD8B /* EmergencyContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactView.swift; sourceTree = "<group>"; };
+		DAF3D6A52E0466B900EAAD8B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		DAF3D6A82E07262000EAAD8B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DAF3D6AB2E072AAF00EAAD8B /* HomeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +75,11 @@
 		DAF3D67F2E01C1F400EAAD8B /* SmartAid */ = {
 			isa = PBXGroup;
 			children = (
+				DAF3D6AA2E072A8F00EAAD8B /* UtilView */,
+				DAF3D6A72E07260C00EAAD8B /* Home */,
+				DAF3D6A02E04660100EAAD8B /* EmergencyContact */,
+				DAF3D6932E01C3C300EAAD8B /* MedicineReminder */,
+				DAF3D68E2E01C20500EAAD8B /* SymtomChecker */,
 				DAF3D6802E01C1F400EAAD8B /* SmartAidApp.swift */,
 				DAF3D6822E01C1F400EAAD8B /* ContentView.swift */,
 				DAF3D6842E01C1F600EAAD8B /* Assets.xcassets */,
@@ -65,6 +94,53 @@
 				DAF3D6872E01C1F600EAAD8B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DAF3D68E2E01C20500EAAD8B /* SymtomChecker */ = {
+			isa = PBXGroup;
+			children = (
+				DAF3D68F2E01C25200EAAD8B /* SymtomCheckerBotView.swift */,
+				DAF3D6912E01C2A100EAAD8B /* ChatViewModel.swift */,
+			);
+			path = SymtomChecker;
+			sourceTree = "<group>";
+		};
+		DAF3D6932E01C3C300EAAD8B /* MedicineReminder */ = {
+			isa = PBXGroup;
+			children = (
+				DAF3D6942E01C3DE00EAAD8B /* MedicineReminderView.swift */,
+				DAF3D6962E01C43000EAAD8B /* Reminder.swift */,
+				DAF3D6982E01C67E00EAAD8B /* NotificationManager.swift */,
+				DAF3D69A2E01DFC800EAAD8B /* MedicationReminderViewmodel.swift */,
+			);
+			path = MedicineReminder;
+			sourceTree = "<group>";
+		};
+		DAF3D6A02E04660100EAAD8B /* EmergencyContact */ = {
+			isa = PBXGroup;
+			children = (
+				DAF3D69C2E0465A900EAAD8B /* EmergencyContactLocationViewModel.swift */,
+				DAF3D6A12E04661F00EAAD8B /* EmergencyContact.swift */,
+				DAF3D6A32E04666900EAAD8B /* EmergencyContactView.swift */,
+				DAF3D6A52E0466B900EAAD8B /* LocationManager.swift */,
+			);
+			path = EmergencyContact;
+			sourceTree = "<group>";
+		};
+		DAF3D6A72E07260C00EAAD8B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DAF3D6A82E07262000EAAD8B /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DAF3D6AA2E072A8F00EAAD8B /* UtilView */ = {
+			isa = PBXGroup;
+			children = (
+				DAF3D6AB2E072AAF00EAAD8B /* HomeButtonView.swift */,
+			);
+			path = UtilView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +213,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAF3D6A22E04661F00EAAD8B /* EmergencyContact.swift in Sources */,
 				DAF3D6832E01C1F400EAAD8B /* ContentView.swift in Sources */,
+				DAF3D6A92E07262000EAAD8B /* HomeView.swift in Sources */,
+				DAF3D69B2E01DFC800EAAD8B /* MedicationReminderViewmodel.swift in Sources */,
 				DAF3D6812E01C1F400EAAD8B /* SmartAidApp.swift in Sources */,
+				DAF3D6A42E04666900EAAD8B /* EmergencyContactView.swift in Sources */,
+				DAF3D6952E01C3DE00EAAD8B /* MedicineReminderView.swift in Sources */,
+				DAF3D6972E01C43000EAAD8B /* Reminder.swift in Sources */,
+				DAF3D6992E01C67E00EAAD8B /* NotificationManager.swift in Sources */,
+				DAF3D6A62E0466B900EAAD8B /* LocationManager.swift in Sources */,
+				DAF3D6922E01C2A100EAAD8B /* ChatViewModel.swift in Sources */,
+				DAF3D6AC2E072AAF00EAAD8B /* HomeButtonView.swift in Sources */,
+				DAF3D69D2E0465A900EAAD8B /* EmergencyContactLocationViewModel.swift in Sources */,
+				DAF3D6902E01C25200EAAD8B /* SymtomCheckerBotView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +363,7 @@
 				DEVELOPMENT_TEAM = NFL3SP3DLH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "\"We need your location to send it to emergency contacts\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +393,7 @@
 				DEVELOPMENT_TEAM = NFL3SP3DLH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "\"We need your location to send it to emergency contacts\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
