@@ -12,7 +12,7 @@ struct EmergencyContactView: View {
     @State private var contactName: String = ""
         @State private var phoneNumber: String = ""
         @ObservedObject var viewModel = EmergencyContactLocationViewModel()
-        @ObservedObject var locationManager = LocationManager()
+       @ObservedObject var manager = LocationManager()
         @State private var locationSent: Bool = false
     var body: some View {
         VStack(spacing: 24) {
@@ -42,8 +42,8 @@ struct EmergencyContactView: View {
                        .cornerRadius(10)
                    }
             
-            Text(locationManager.location == nil ? "📍 Location is nil" : "✅ Location loaded")
-                        .foregroundColor(locationManager.location == nil ? .gray : .green)
+            Text(LocationManager.shared.location == nil ? "📍 Location is not found try to open GPS" : "✅ Location loaded")
+                .foregroundColor(LocationManager.shared.location == nil ? .gray : .green)
                         .font(.caption)
 
                    Divider()
@@ -58,7 +58,7 @@ struct EmergencyContactView: View {
                                Text(contact.name).font(.headline)
                                Text(contact.phone).font(.subheadline).foregroundColor(.gray)
 
-                               if let loc = locationManager.location {
+                               if let loc = LocationManager.shared.location{
                                    Button("Send Location") {
                                        sendLocation(to: contact, location: loc)
                                        locationSent = true

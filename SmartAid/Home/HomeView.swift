@@ -11,14 +11,18 @@ struct HomeView: View {
     var body: some View {
         NavigationStack {
             VStack(spacing: 32) {
+                
+                
+                
                 // App Title
                 Text("SmartAid")
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .padding(.top)
                 
+                
                
-                LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 24) {
+                LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 35) {
                     
                     NavigationLink(destination: SymtomCheckerBotView()) {
                         HomeButtonView(icon: "stethoscope", label: "Symptom\nChecker", color: .blue)
@@ -31,16 +35,23 @@ struct HomeView: View {
                     
                    
                     NavigationLink(destination: MedicineReminderView()) {
-                        HomeButtonView(icon: "pills", label: "Medicine\nReminder", color: .blue)
+                        HomeButtonView(icon: "pills", label: "Medicine\nReminder", color: .green)
                     }
                     
                     // Emergency
-                    NavigationLink(destination: EmergencyContactView()) {
-                        HomeButtonView(icon: "exclamationmark.triangle", label: "Emergency", color: .red)
+                    NavigationLink(destination: NearbyHospitalView()) {
+                        HomeButtonView(icon: "building.2.crop.circle.fill", label: "NearbyHospital", color: .yellow)
                     }
                 }
                 
                 Spacer()
+                
+                Text("SmartAid helps you manage your health by providing AI-powered symptom checking, medication reminders, and emergency support.")
+                            .font(.footnote)
+                            .foregroundColor(.gray)
+                            .multilineTextAlignment(.center)
+                            .padding(.horizontal)
+                            .padding(.bottom, 10)
             }
             .padding()
             

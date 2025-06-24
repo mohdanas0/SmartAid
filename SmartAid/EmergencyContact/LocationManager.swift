@@ -11,8 +11,10 @@ import Foundation
 import CoreLocation
 
 class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
+    static let shared = LocationManager() // ✅ Singleton instance
     private let manager = CLLocationManager()
     @Published var location: CLLocationCoordinate2D?
+    @Published var isLoading = true
 
     override init() {
         super.init()
@@ -27,9 +29,9 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
         guard let loc = locations.last else { 
             print("No location found")
             return }
-        print("📍 Location updated: \(loc.coordinate.latitude), \(loc.coordinate.longitude)")
         DispatchQueue.main.async {
                    self.location = loc.coordinate
+                   self.isLoading = false
                }
     }
     

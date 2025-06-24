@@ -23,6 +23,9 @@
 		DAF3D6A62E0466B900EAAD8B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6A52E0466B900EAAD8B /* LocationManager.swift */; };
 		DAF3D6A92E07262000EAAD8B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6A82E07262000EAAD8B /* HomeView.swift */; };
 		DAF3D6AC2E072AAF00EAAD8B /* HomeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6AB2E072AAF00EAAD8B /* HomeButtonView.swift */; };
+		DAF3D6AF2E09A39E00EAAD8B /* NearbyHospitalViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6AE2E09A39E00EAAD8B /* NearbyHospitalViewmodel.swift */; };
+		DAF3D6B12E09A3F000EAAD8B /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6B02E09A3F000EAAD8B /* Place.swift */; };
+		DAF3D6B32E09A42E00EAAD8B /* NearbyHospitalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6B22E09A42E00EAAD8B /* NearbyHospitalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +46,9 @@
 		DAF3D6A52E0466B900EAAD8B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		DAF3D6A82E07262000EAAD8B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		DAF3D6AB2E072AAF00EAAD8B /* HomeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButtonView.swift; sourceTree = "<group>"; };
+		DAF3D6AE2E09A39E00EAAD8B /* NearbyHospitalViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyHospitalViewmodel.swift; sourceTree = "<group>"; };
+		DAF3D6B02E09A3F000EAAD8B /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		DAF3D6B22E09A42E00EAAD8B /* NearbyHospitalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyHospitalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,7 @@
 		DAF3D67F2E01C1F400EAAD8B /* SmartAid */ = {
 			isa = PBXGroup;
 			children = (
+				DAF3D6AD2E09A37600EAAD8B /* Nearbyhospital */,
 				DAF3D6AA2E072A8F00EAAD8B /* UtilView */,
 				DAF3D6A72E07260C00EAAD8B /* Home */,
 				DAF3D6A02E04660100EAAD8B /* EmergencyContact */,
@@ -141,6 +148,16 @@
 				DAF3D6AB2E072AAF00EAAD8B /* HomeButtonView.swift */,
 			);
 			path = UtilView;
+			sourceTree = "<group>";
+		};
+		DAF3D6AD2E09A37600EAAD8B /* Nearbyhospital */ = {
+			isa = PBXGroup;
+			children = (
+				DAF3D6AE2E09A39E00EAAD8B /* NearbyHospitalViewmodel.swift */,
+				DAF3D6B02E09A3F000EAAD8B /* Place.swift */,
+				DAF3D6B22E09A42E00EAAD8B /* NearbyHospitalView.swift */,
+			);
+			path = Nearbyhospital;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,10 +236,13 @@
 				DAF3D69B2E01DFC800EAAD8B /* MedicationReminderViewmodel.swift in Sources */,
 				DAF3D6812E01C1F400EAAD8B /* SmartAidApp.swift in Sources */,
 				DAF3D6A42E04666900EAAD8B /* EmergencyContactView.swift in Sources */,
+				DAF3D6B32E09A42E00EAAD8B /* NearbyHospitalView.swift in Sources */,
 				DAF3D6952E01C3DE00EAAD8B /* MedicineReminderView.swift in Sources */,
+				DAF3D6AF2E09A39E00EAAD8B /* NearbyHospitalViewmodel.swift in Sources */,
 				DAF3D6972E01C43000EAAD8B /* Reminder.swift in Sources */,
 				DAF3D6992E01C67E00EAAD8B /* NotificationManager.swift in Sources */,
 				DAF3D6A62E0466B900EAAD8B /* LocationManager.swift in Sources */,
+				DAF3D6B12E09A3F000EAAD8B /* Place.swift in Sources */,
 				DAF3D6922E01C2A100EAAD8B /* ChatViewModel.swift in Sources */,
 				DAF3D6AC2E072AAF00EAAD8B /* HomeButtonView.swift in Sources */,
 				DAF3D69D2E0465A900EAAD8B /* EmergencyContactLocationViewModel.swift in Sources */,
