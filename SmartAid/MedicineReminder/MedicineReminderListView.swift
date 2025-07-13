@@ -24,9 +24,9 @@ struct MedicineReminderListView: View {
                         Image(systemName: "bell.slash")
                             .resizable()
                             .frame(width: 60, height: 60)
-                            .foregroundColor(.gray)
+                            .foregroundColor(Color.gray)
                         Text("No Reminders added yet")
-                            .foregroundColor(.gray)
+                            .foregroundColor(Color.gray)
                             .font(.headline)
                     }
                     .padding()
@@ -39,6 +39,7 @@ struct MedicineReminderListView: View {
                             VStack(alignment: .leading) {
                                 Text(reminder.medicineName)
                                     .font(.headline)
+                                    .foregroundStyle(Color.black)
                                 Text("Time: \(viewModel.formattedTime(reminder.time)) | Repeat: \(reminder.repeatFrequency)")
                                     .font(.subheadline)
                                     .foregroundColor(.gray)

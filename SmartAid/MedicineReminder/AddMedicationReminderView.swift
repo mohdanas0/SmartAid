@@ -50,7 +50,7 @@ struct AddMedicationReminderView: View {
                     viewModel.addReminder()
                     isPresented = false
                 }
-                .foregroundColor(.white)
+                .foregroundColor(Color.white)
                 .frame(maxWidth: .infinity)
                 .padding()
                 .background(Color.blue)

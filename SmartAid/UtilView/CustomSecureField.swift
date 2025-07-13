@@ -21,7 +21,7 @@ struct CustomSecureField: View {
                             showPassword = false
                         }label: {
                             Image(systemName: "eye.fill")
-                                .foregroundStyle(.black)
+                                .foregroundStyle(Color.primary)
                         }
                     }
                 
@@ -41,7 +41,7 @@ struct CustomSecureField: View {
                                 showPassword = true
                             }label: {
                                 Image(systemName: "eye.slash.fill")
-                                    .foregroundStyle(.black)
+                                    .foregroundStyle(Color.primary)
                             }
                         }
                         .autocorrectionDisabled()

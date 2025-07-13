@@ -22,19 +22,19 @@ struct HomeView: View {
 
                 LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 35) {
                     NavigationLink(destination: SymtomCheckerBotView()) {
-                        HomeButtonView(icon: "stethoscope", label: "Symptom\nChecker", color: .blue)
+                        HomeButtonView(icon: "stethoscope", label: "Symptom\nChecker", color: Color.blue)
                     }
 
                     NavigationLink(destination: EmergencyContactView()) {
-                        HomeButtonView(icon: "exclamationmark.triangle", label: "Emergency\nContact", color: .red)
+                        HomeButtonView(icon: "exclamationmark.triangle", label: "Emergency\nContact", color: Color.red)
                     }
 
                     NavigationLink(destination: MedicineReminderListView()) {
-                        HomeButtonView(icon: "pills", label: "Medicine\nReminder", color: .green)
+                        HomeButtonView(icon: "pills", label: "Medicine\nReminder", color: Color.green)
                     }
 
                     NavigationLink(destination: NearbyHospitalView()) {
-                        HomeButtonView(icon: "building.2.crop.circle", label: "Nearby\nHospital", color: .yellow)
+                        HomeButtonView(icon: "building.2.crop.circle", label: "Nearby\nHospital", color: Color.yellow)
                     }
                 }
 
@@ -42,7 +42,7 @@ struct HomeView: View {
 
                 Text("SmartAid helps you manage your health by providing AI-powered symptom checking, medication reminders, and emergency support.")
                     .font(.footnote)
-                    .foregroundColor(.gray)
+                    .foregroundColor(Color.gray)
                     .multilineTextAlignment(.center)
                     .padding(.horizontal)
                     .padding(.bottom, 10)
@@ -55,7 +55,7 @@ struct HomeView: View {
                             .onTapGesture{
                                 authVM.signOut()
                             }
-                            .foregroundStyle(.blue)
+                            .foregroundStyle(Color.blue)
                            
                 
                 

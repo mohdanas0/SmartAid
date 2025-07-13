@@ -20,7 +20,7 @@ struct HomeButtonView: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width:36,height: 36)
-                        .foregroundStyle(.white)
+                        .foregroundStyle(Color.white)
                         .padding(16)
                         .background(color)
                         .clipShape(RoundedRectangle(cornerRadius: 16))
@@ -30,7 +30,7 @@ struct HomeButtonView: View {
                         .lineLimit(2)
                         .fixedSize(horizontal: false, vertical: true)
                         .font(.subheadline)
-                        .foregroundColor(.primary)
+                        .foregroundColor(Color.primary)
             
                      Spacer()
                 }

@@ -21,6 +21,7 @@ struct CustomTextField: View {
                     .frame(width:20,height: 20)
                 
                 TextField(placeholder,text:$text)
+                    .foregroundStyle(Color.primary)
                    
             }
             

@@ -31,7 +31,7 @@ struct LoginView: View {
             
             if !authVM.errorMessage.isEmpty {
                 Text(authVM.errorMessage)
-                               .foregroundColor(.red)
+                    .foregroundColor(Color.red)
                                .font(.caption)
                        }
                 
@@ -45,7 +45,7 @@ struct LoginView: View {
                     Text("Forgot Password?")
                         .font(.caption)
                         .fontWeight(.semibold)
-                        .foregroundStyle(.blue)
+                        .foregroundStyle(Color.blue)
                         .padding(.top)
                         .padding(.trailing,32)
                     
@@ -61,7 +61,7 @@ struct LoginView: View {
                         .font(.headline)
                         .frame(width: 340,height: 50)
                         .background(.blue)
-                        .foregroundStyle(.white)
+                        .foregroundStyle(Color.white)
                         .clipShape(Capsule())
                         .padding()
                 }
@@ -80,13 +80,13 @@ struct LoginView: View {
                     Text("Don't have an account?")
                         .font(.footnote)
                         .fontWeight(.semibold)
-                        .foregroundStyle(.blue)
+                        .foregroundStyle(Color.blue)
                         
                     
                     Text("Sign Up")
                         .font(.footnote)
                         .fontWeight(.semibold)
-                        .foregroundStyle(.blue)
+                        .foregroundStyle(Color.blue)
                     
                 }
                 

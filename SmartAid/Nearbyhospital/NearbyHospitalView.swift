@@ -21,14 +21,12 @@ struct NearbyHospitalView: View {
                                         VStack {
                                             Image(systemName: "cross.case.fill")
                                                 .font(.title)
-                                                .foregroundColor(.red)
+                                                .foregroundColor(Color.red)
                                                 .onTapGesture {
                                                     viewModel.openInMaps(place)
                                                 }
 
-                                            Text(place.name)
-                                                .font(.caption2)
-                                                .background(Color.white.opacity(0.8))
+                                            
                                         }
                                     }
                                 }

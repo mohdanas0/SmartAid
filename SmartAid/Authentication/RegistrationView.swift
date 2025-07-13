@@ -42,15 +42,15 @@ struct RegistrationView: View {
                     Text("Sign Up")
                         .font(.headline)
                         .frame(width: 340,height: 50)
-                        .background(.blue)
-                        .foregroundStyle(.white)
+                        .background(Color.blue)
+                        .foregroundStyle(Color.white)
                         .clipShape(Capsule())
                         .padding()
                 }
                 
                 if !authVM.errorMessage.isEmpty {
                                Text(authVM.errorMessage)
-                                   .foregroundColor(.red)
+                        .foregroundColor(Color.red)
                            }
                 
             }
@@ -65,13 +65,13 @@ struct RegistrationView: View {
                     Text("Already have an account?")
                         .font(.footnote)
                         .fontWeight(.semibold)
-                        .foregroundStyle(.blue)
+                        .foregroundStyle(Color.blue)
                         
                     
                     Text("Sign In")
                         .font(.footnote)
                         .fontWeight(.semibold)
-                        .foregroundStyle(.blue)
+                        .foregroundStyle(Color.blue)
                     
                 }
                 

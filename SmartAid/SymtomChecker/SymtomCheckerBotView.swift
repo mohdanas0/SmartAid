@@ -34,7 +34,7 @@ struct SymtomCheckerBotView: View {
             HStack {
                 TextField("Type something...", text: $viewModel.userInput)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
-                    .foregroundStyle(.black)
+                    .foregroundStyle(Color.primary)
                     .disabled(viewModel.isLoading)
                 Button(action: {
                     viewModel.sendMessage()

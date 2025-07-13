@@ -18,7 +18,7 @@ struct HeaderView: View {
                     .fontWeight(.semibold)
                     
             }
-            .foregroundColor(.white)
+            .foregroundColor(Color.white)
             .padding(.horizontal,20)
             .padding(.vertical,40)
         }

@@ -25,7 +25,7 @@ struct SplashScreenView: View {
                                 .resizable()
                                 .scaledToFit()
                                 .frame(width: 200, height: 200)
-                                .foregroundColor(.white)
+                                .foregroundColor(Color.primary)
                             
                             
                             
@@ -33,12 +33,12 @@ struct SplashScreenView: View {
                             Text("SmartAid")
                                 .font(.largeTitle)
                                 .fontWeight(.bold)
-                                .foregroundColor(.black)
+                                .foregroundColor(Color.primary)
                                 .shadow(radius: 5)
                             
                             Text("Your Personal health assistant")
                                 .font(.headline)
-                                .foregroundColor(.black)
+                                .foregroundColor(Color.primary)
                                 .padding(.horizontal)
                                 .multilineTextAlignment(.center)
                         }

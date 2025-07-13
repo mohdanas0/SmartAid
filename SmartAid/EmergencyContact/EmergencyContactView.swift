@@ -37,7 +37,7 @@ struct EmergencyContactView: View {
                         Text(toastMessage)
                             .padding()
                             .background(Color.black.opacity(0.8))
-                            .foregroundColor(.white)
+                            .foregroundColor(Color.white)
                             .cornerRadius(10)
                             .transition(.move(edge: .bottom).combined(with: .opacity))
                             .padding(.bottom, 40)
@@ -109,9 +109,9 @@ extension EmergencyContactView {
                 Image(systemName: "person.crop.circle.badge.exclam")
                     .resizable()
                     .frame(width: 60, height: 60)
-                    .foregroundColor(.gray)
+                    .foregroundColor(Color.gray)
                 Text("No emergency contacts added yet")
-                    .foregroundColor(.gray)
+                    .foregroundColor(Color.gray)
                     .font(.headline)
             }
             .padding()
@@ -129,7 +129,8 @@ extension EmergencyContactView {
                     HStack{
                         VStack(alignment:.leading,spacing:3){
                             Text(contact.name).font(.headline)
-                            Text(contact.phone).font(.subheadline).foregroundColor(.gray)
+                                .foregroundStyle(Color.black)
+                            Text(contact.phone).font(.subheadline).foregroundColor(Color.gray)
                         }
                         Spacer()
                         
@@ -142,7 +143,7 @@ extension EmergencyContactView {
                             .padding(.horizontal, 10)
                             .padding(.vertical, 6)
                             .background(Color.red)
-                            .foregroundStyle(.white)
+                            .foregroundStyle(Color.white)
                             .cornerRadius(12)
                             .shadow(color: Color.black.opacity(0.2), radius: 4, x: 0, y: 2)
                             
