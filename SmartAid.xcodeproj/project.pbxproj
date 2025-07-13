@@ -7,28 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA292DB62E16DA5500AB0FF9 /* EmergencyContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA292DB52E16DA5500AB0FF9 /* EmergencyContactView.swift */; };
+		DA35E5922E0C459100ABBB00 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DA35E5912E0C459100ABBB00 /* FirebaseAuth */; };
+		DA35E5942E0C459100ABBB00 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = DA35E5932E0C459100ABBB00 /* FirebaseCore */; };
+		DAB077752E21620D00596AB5 /* MedicineReminderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB077742E21620D00596AB5 /* MedicineReminderListView.swift */; };
+		DAB077782E2214A800596AB5 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB077772E2214A800596AB5 /* SplashScreenView.swift */; };
+		DAF2F9C12E142D0800D4AE65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAF2F9C02E142D0800D4AE65 /* GoogleService-Info.plist */; };
+		DAF2F9C32E142D9400D4AE65 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF2F9C22E142D8100D4AE65 /* AuthenticationViewModel.swift */; };
 		DAF3D6812E01C1F400EAAD8B /* SmartAidApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6802E01C1F400EAAD8B /* SmartAidApp.swift */; };
 		DAF3D6832E01C1F400EAAD8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6822E01C1F400EAAD8B /* ContentView.swift */; };
 		DAF3D6852E01C1F600EAAD8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF3D6842E01C1F600EAAD8B /* Assets.xcassets */; };
 		DAF3D6882E01C1F600EAAD8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF3D6872E01C1F600EAAD8B /* Preview Assets.xcassets */; };
 		DAF3D6902E01C25200EAAD8B /* SymtomCheckerBotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D68F2E01C25200EAAD8B /* SymtomCheckerBotView.swift */; };
 		DAF3D6922E01C2A100EAAD8B /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6912E01C2A100EAAD8B /* ChatViewModel.swift */; };
-		DAF3D6952E01C3DE00EAAD8B /* MedicineReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6942E01C3DE00EAAD8B /* MedicineReminderView.swift */; };
+		DAF3D6952E01C3DE00EAAD8B /* AddMedicationReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6942E01C3DE00EAAD8B /* AddMedicationReminderView.swift */; };
 		DAF3D6972E01C43000EAAD8B /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6962E01C43000EAAD8B /* Reminder.swift */; };
 		DAF3D6992E01C67E00EAAD8B /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6982E01C67E00EAAD8B /* NotificationManager.swift */; };
 		DAF3D69B2E01DFC800EAAD8B /* MedicationReminderViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D69A2E01DFC800EAAD8B /* MedicationReminderViewmodel.swift */; };
 		DAF3D69D2E0465A900EAAD8B /* EmergencyContactLocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D69C2E0465A900EAAD8B /* EmergencyContactLocationViewModel.swift */; };
 		DAF3D6A22E04661F00EAAD8B /* EmergencyContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6A12E04661F00EAAD8B /* EmergencyContact.swift */; };
-		DAF3D6A42E04666900EAAD8B /* EmergencyContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6A32E04666900EAAD8B /* EmergencyContactView.swift */; };
+		DAF3D6A42E04666900EAAD8B /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6A32E04666900EAAD8B /* AddContactView.swift */; };
 		DAF3D6A62E0466B900EAAD8B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6A52E0466B900EAAD8B /* LocationManager.swift */; };
 		DAF3D6A92E07262000EAAD8B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6A82E07262000EAAD8B /* HomeView.swift */; };
 		DAF3D6AC2E072AAF00EAAD8B /* HomeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6AB2E072AAF00EAAD8B /* HomeButtonView.swift */; };
 		DAF3D6AF2E09A39E00EAAD8B /* NearbyHospitalViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6AE2E09A39E00EAAD8B /* NearbyHospitalViewmodel.swift */; };
 		DAF3D6B12E09A3F000EAAD8B /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6B02E09A3F000EAAD8B /* Place.swift */; };
 		DAF3D6B32E09A42E00EAAD8B /* NearbyHospitalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6B22E09A42E00EAAD8B /* NearbyHospitalView.swift */; };
+		DAF3D6B52E0BCAE500EAAD8B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6B42E0BCAE500EAAD8B /* HeaderView.swift */; };
+		DAF3D6B72E0BCB5900EAAD8B /* RoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6B62E0BCB5900EAAD8B /* RoundedShape.swift */; };
+		DAF3D6B92E0BCC0F00EAAD8B /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6B82E0BCC0F00EAAD8B /* CustomTextField.swift */; };
+		DAF3D6BB2E0BCC7000EAAD8B /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6BA2E0BCC7000EAAD8B /* CustomSecureField.swift */; };
+		DAF3D6BE2E0BCD3E00EAAD8B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6BD2E0BCD3E00EAAD8B /* LoginView.swift */; };
+		DAF3D6C02E0BCD9400EAAD8B /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6BF2E0BCD9400EAAD8B /* RegistrationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA292DB52E16DA5500AB0FF9 /* EmergencyContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactView.swift; sourceTree = "<group>"; };
+		DAB077742E21620D00596AB5 /* MedicineReminderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineReminderListView.swift; sourceTree = "<group>"; };
+		DAB077772E2214A800596AB5 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		DAB0777D2E22B02300596AB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DAF2F9C02E142D0800D4AE65 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DAF2F9C22E142D8100D4AE65 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 		DAF3D67D2E01C1F400EAAD8B /* SmartAid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartAid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF3D6802E01C1F400EAAD8B /* SmartAidApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartAidApp.swift; sourceTree = "<group>"; };
 		DAF3D6822E01C1F400EAAD8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,19 +55,25 @@
 		DAF3D6872E01C1F600EAAD8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DAF3D68F2E01C25200EAAD8B /* SymtomCheckerBotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymtomCheckerBotView.swift; sourceTree = "<group>"; };
 		DAF3D6912E01C2A100EAAD8B /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
-		DAF3D6942E01C3DE00EAAD8B /* MedicineReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineReminderView.swift; sourceTree = "<group>"; };
+		DAF3D6942E01C3DE00EAAD8B /* AddMedicationReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMedicationReminderView.swift; sourceTree = "<group>"; };
 		DAF3D6962E01C43000EAAD8B /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		DAF3D6982E01C67E00EAAD8B /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		DAF3D69A2E01DFC800EAAD8B /* MedicationReminderViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationReminderViewmodel.swift; sourceTree = "<group>"; };
 		DAF3D69C2E0465A900EAAD8B /* EmergencyContactLocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactLocationViewModel.swift; sourceTree = "<group>"; };
 		DAF3D6A12E04661F00EAAD8B /* EmergencyContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContact.swift; sourceTree = "<group>"; };
-		DAF3D6A32E04666900EAAD8B /* EmergencyContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactView.swift; sourceTree = "<group>"; };
+		DAF3D6A32E04666900EAAD8B /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
 		DAF3D6A52E0466B900EAAD8B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		DAF3D6A82E07262000EAAD8B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		DAF3D6AB2E072AAF00EAAD8B /* HomeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButtonView.swift; sourceTree = "<group>"; };
 		DAF3D6AE2E09A39E00EAAD8B /* NearbyHospitalViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyHospitalViewmodel.swift; sourceTree = "<group>"; };
 		DAF3D6B02E09A3F000EAAD8B /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		DAF3D6B22E09A42E00EAAD8B /* NearbyHospitalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyHospitalView.swift; sourceTree = "<group>"; };
+		DAF3D6B42E0BCAE500EAAD8B /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		DAF3D6B62E0BCB5900EAAD8B /* RoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShape.swift; sourceTree = "<group>"; };
+		DAF3D6B82E0BCC0F00EAAD8B /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		DAF3D6BA2E0BCC7000EAAD8B /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
+		DAF3D6BD2E0BCD3E00EAAD8B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DAF3D6BF2E0BCD9400EAAD8B /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +81,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA35E5942E0C459100ABBB00 /* FirebaseCore in Frameworks */,
+				DA35E5922E0C459100ABBB00 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DAB077762E22149000596AB5 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DAB077772E2214A800596AB5 /* SplashScreenView.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		DAB077792E22298400596AB5 /* modal */ = {
+			isa = PBXGroup;
+			children = (
+				DAF3D6A12E04661F00EAAD8B /* EmergencyContact.swift */,
+			);
+			path = modal;
+			sourceTree = "<group>";
+		};
+		DAB0777A2E22299B00596AB5 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				DAF3D69C2E0465A900EAAD8B /* EmergencyContactLocationViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		DAB0777B2E2229AE00596AB5 /* modal */ = {
+			isa = PBXGroup;
+			children = (
+				DAF3D6962E01C43000EAAD8B /* Reminder.swift */,
+			);
+			path = modal;
+			sourceTree = "<group>";
+		};
+		DAB0777C2E2229B500596AB5 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				DAF3D69A2E01DFC800EAAD8B /* MedicationReminderViewmodel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
 		DAF3D6742E01C1F400EAAD8B = {
 			isa = PBXGroup;
 			children = (
+				DAF2F9C02E142D0800D4AE65 /* GoogleService-Info.plist */,
 				DAF3D67F2E01C1F400EAAD8B /* SmartAid */,
 				DAF3D67E2E01C1F400EAAD8B /* Products */,
 			);
@@ -81,6 +149,9 @@
 		DAF3D67F2E01C1F400EAAD8B /* SmartAid */ = {
 			isa = PBXGroup;
 			children = (
+				DAB0777D2E22B02300596AB5 /* Info.plist */,
+				DAB077762E22149000596AB5 /* SplashScreen */,
+				DAF3D6BC2E0BCD2E00EAAD8B /* Authentication */,
 				DAF3D6AD2E09A37600EAAD8B /* Nearbyhospital */,
 				DAF3D6AA2E072A8F00EAAD8B /* UtilView */,
 				DAF3D6A72E07260C00EAAD8B /* Home */,
@@ -115,10 +186,11 @@
 		DAF3D6932E01C3C300EAAD8B /* MedicineReminder */ = {
 			isa = PBXGroup;
 			children = (
-				DAF3D6942E01C3DE00EAAD8B /* MedicineReminderView.swift */,
-				DAF3D6962E01C43000EAAD8B /* Reminder.swift */,
+				DAB0777C2E2229B500596AB5 /* viewmodel */,
+				DAB0777B2E2229AE00596AB5 /* modal */,
+				DAF3D6942E01C3DE00EAAD8B /* AddMedicationReminderView.swift */,
+				DAB077742E21620D00596AB5 /* MedicineReminderListView.swift */,
 				DAF3D6982E01C67E00EAAD8B /* NotificationManager.swift */,
-				DAF3D69A2E01DFC800EAAD8B /* MedicationReminderViewmodel.swift */,
 			);
 			path = MedicineReminder;
 			sourceTree = "<group>";
@@ -126,10 +198,11 @@
 		DAF3D6A02E04660100EAAD8B /* EmergencyContact */ = {
 			isa = PBXGroup;
 			children = (
-				DAF3D69C2E0465A900EAAD8B /* EmergencyContactLocationViewModel.swift */,
-				DAF3D6A12E04661F00EAAD8B /* EmergencyContact.swift */,
-				DAF3D6A32E04666900EAAD8B /* EmergencyContactView.swift */,
+				DAB0777A2E22299B00596AB5 /* viewmodel */,
+				DAB077792E22298400596AB5 /* modal */,
+				DAF3D6A32E04666900EAAD8B /* AddContactView.swift */,
 				DAF3D6A52E0466B900EAAD8B /* LocationManager.swift */,
+				DA292DB52E16DA5500AB0FF9 /* EmergencyContactView.swift */,
 			);
 			path = EmergencyContact;
 			sourceTree = "<group>";
@@ -146,6 +219,10 @@
 			isa = PBXGroup;
 			children = (
 				DAF3D6AB2E072AAF00EAAD8B /* HomeButtonView.swift */,
+				DAF3D6B42E0BCAE500EAAD8B /* HeaderView.swift */,
+				DAF3D6B62E0BCB5900EAAD8B /* RoundedShape.swift */,
+				DAF3D6B82E0BCC0F00EAAD8B /* CustomTextField.swift */,
+				DAF3D6BA2E0BCC7000EAAD8B /* CustomSecureField.swift */,
 			);
 			path = UtilView;
 			sourceTree = "<group>";
@@ -158,6 +235,16 @@
 				DAF3D6B22E09A42E00EAAD8B /* NearbyHospitalView.swift */,
 			);
 			path = Nearbyhospital;
+			sourceTree = "<group>";
+		};
+		DAF3D6BC2E0BCD2E00EAAD8B /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				DAF2F9C22E142D8100D4AE65 /* AuthenticationViewModel.swift */,
+				DAF3D6BD2E0BCD3E00EAAD8B /* LoginView.swift */,
+				DAF3D6BF2E0BCD9400EAAD8B /* RegistrationView.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +263,10 @@
 			dependencies = (
 			);
 			name = SmartAid;
+			packageProductDependencies = (
+				DA35E5912E0C459100ABBB00 /* FirebaseAuth */,
+				DA35E5932E0C459100ABBB00 /* FirebaseCore */,
+			);
 			productName = SmartAid;
 			productReference = DAF3D67D2E01C1F400EAAD8B /* SmartAid.app */;
 			productType = "com.apple.product-type.application";
@@ -204,6 +295,9 @@
 				Base,
 			);
 			mainGroup = DAF3D6742E01C1F400EAAD8B;
+			packageReferences = (
+				DA35E5902E0C459100ABBB00 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = DAF3D67E2E01C1F400EAAD8B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -220,6 +314,7 @@
 			files = (
 				DAF3D6882E01C1F600EAAD8B /* Preview Assets.xcassets in Resources */,
 				DAF3D6852E01C1F600EAAD8B /* Assets.xcassets in Resources */,
+				DAF2F9C12E142D0800D4AE65 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,19 +325,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAB077752E21620D00596AB5 /* MedicineReminderListView.swift in Sources */,
 				DAF3D6A22E04661F00EAAD8B /* EmergencyContact.swift in Sources */,
+				DAF3D6B52E0BCAE500EAAD8B /* HeaderView.swift in Sources */,
+				DAF3D6C02E0BCD9400EAAD8B /* RegistrationView.swift in Sources */,
 				DAF3D6832E01C1F400EAAD8B /* ContentView.swift in Sources */,
+				DA292DB62E16DA5500AB0FF9 /* EmergencyContactView.swift in Sources */,
 				DAF3D6A92E07262000EAAD8B /* HomeView.swift in Sources */,
+				DAF3D6B92E0BCC0F00EAAD8B /* CustomTextField.swift in Sources */,
+				DAB077782E2214A800596AB5 /* SplashScreenView.swift in Sources */,
 				DAF3D69B2E01DFC800EAAD8B /* MedicationReminderViewmodel.swift in Sources */,
 				DAF3D6812E01C1F400EAAD8B /* SmartAidApp.swift in Sources */,
-				DAF3D6A42E04666900EAAD8B /* EmergencyContactView.swift in Sources */,
+				DAF3D6BB2E0BCC7000EAAD8B /* CustomSecureField.swift in Sources */,
+				DAF3D6BE2E0BCD3E00EAAD8B /* LoginView.swift in Sources */,
+				DAF3D6A42E04666900EAAD8B /* AddContactView.swift in Sources */,
 				DAF3D6B32E09A42E00EAAD8B /* NearbyHospitalView.swift in Sources */,
-				DAF3D6952E01C3DE00EAAD8B /* MedicineReminderView.swift in Sources */,
+				DAF2F9C32E142D9400D4AE65 /* AuthenticationViewModel.swift in Sources */,
+				DAF3D6952E01C3DE00EAAD8B /* AddMedicationReminderView.swift in Sources */,
 				DAF3D6AF2E09A39E00EAAD8B /* NearbyHospitalViewmodel.swift in Sources */,
 				DAF3D6972E01C43000EAAD8B /* Reminder.swift in Sources */,
 				DAF3D6992E01C67E00EAAD8B /* NotificationManager.swift in Sources */,
 				DAF3D6A62E0466B900EAAD8B /* LocationManager.swift in Sources */,
 				DAF3D6B12E09A3F000EAAD8B /* Place.swift in Sources */,
+				DAF3D6B72E0BCB5900EAAD8B /* RoundedShape.swift in Sources */,
 				DAF3D6922E01C2A100EAAD8B /* ChatViewModel.swift in Sources */,
 				DAF3D6AC2E072AAF00EAAD8B /* HomeButtonView.swift in Sources */,
 				DAF3D69D2E0465A900EAAD8B /* EmergencyContactLocationViewModel.swift in Sources */,
@@ -383,6 +488,8 @@
 				DEVELOPMENT_TEAM = NFL3SP3DLH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartAid/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "\"We need your location to send it to emergency contacts\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -394,6 +501,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = co.anas.SmartAid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -413,6 +521,8 @@
 				DEVELOPMENT_TEAM = NFL3SP3DLH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartAid/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "\"We need your location to send it to emergency contacts\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -424,6 +534,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = co.anas.SmartAid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -454,6 +565,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DA35E5902E0C459100ABBB00 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.15.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DA35E5912E0C459100ABBB00 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA35E5902E0C459100ABBB00 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		DA35E5932E0C459100ABBB00 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA35E5902E0C459100ABBB00 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DAF3D6752E01C1F400EAAD8B /* Project object */;
 }
