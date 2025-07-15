@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SymtomCheckerBotView: View {
+struct SymptomCheckerBotView: View {
     @StateObject private var viewModel = ChatViewModel()
     var body: some View {
         VStack {
@@ -50,5 +50,5 @@ struct SymtomCheckerBotView: View {
 }
 
 #Preview {
-    SymtomCheckerBotView()
+    SymptomCheckerBotView()
 }

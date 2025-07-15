@@ -18,7 +18,7 @@
 		DAF3D6832E01C1F400EAAD8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6822E01C1F400EAAD8B /* ContentView.swift */; };
 		DAF3D6852E01C1F600EAAD8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF3D6842E01C1F600EAAD8B /* Assets.xcassets */; };
 		DAF3D6882E01C1F600EAAD8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF3D6872E01C1F600EAAD8B /* Preview Assets.xcassets */; };
-		DAF3D6902E01C25200EAAD8B /* SymtomCheckerBotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D68F2E01C25200EAAD8B /* SymtomCheckerBotView.swift */; };
+		DAF3D6902E01C25200EAAD8B /*    SymptomCheckerBotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D68F2E01C25200EAAD8B /*    SymptomCheckerBotView.swift */; };
 		DAF3D6922E01C2A100EAAD8B /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6912E01C2A100EAAD8B /* ChatViewModel.swift */; };
 		DAF3D6952E01C3DE00EAAD8B /* AddMedicationReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6942E01C3DE00EAAD8B /* AddMedicationReminderView.swift */; };
 		DAF3D6972E01C43000EAAD8B /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF3D6962E01C43000EAAD8B /* Reminder.swift */; };
@@ -53,7 +53,7 @@
 		DAF3D6822E01C1F400EAAD8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DAF3D6842E01C1F600EAAD8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAF3D6872E01C1F600EAAD8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DAF3D68F2E01C25200EAAD8B /* SymtomCheckerBotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymtomCheckerBotView.swift; sourceTree = "<group>"; };
+		DAF3D68F2E01C25200EAAD8B /*    SymptomCheckerBotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "   SymptomCheckerBotView.swift"; sourceTree = "<group>"; };
 		DAF3D6912E01C2A100EAAD8B /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
 		DAF3D6942E01C3DE00EAAD8B /* AddMedicationReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMedicationReminderView.swift; sourceTree = "<group>"; };
 		DAF3D6962E01C43000EAAD8B /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
@@ -157,7 +157,7 @@
 				DAF3D6A72E07260C00EAAD8B /* Home */,
 				DAF3D6A02E04660100EAAD8B /* EmergencyContact */,
 				DAF3D6932E01C3C300EAAD8B /* MedicineReminder */,
-				DAF3D68E2E01C20500EAAD8B /* SymtomChecker */,
+				DAF3D68E2E01C20500EAAD8B /* SymptomChecker */,
 				DAF3D6802E01C1F400EAAD8B /* SmartAidApp.swift */,
 				DAF3D6822E01C1F400EAAD8B /* ContentView.swift */,
 				DAF3D6842E01C1F600EAAD8B /* Assets.xcassets */,
@@ -174,13 +174,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		DAF3D68E2E01C20500EAAD8B /* SymtomChecker */ = {
+		DAF3D68E2E01C20500EAAD8B /* SymptomChecker */ = {
 			isa = PBXGroup;
 			children = (
-				DAF3D68F2E01C25200EAAD8B /* SymtomCheckerBotView.swift */,
+				DAF3D68F2E01C25200EAAD8B /*    SymptomCheckerBotView.swift */,
 				DAF3D6912E01C2A100EAAD8B /* ChatViewModel.swift */,
 			);
-			path = SymtomChecker;
+			path = SymptomChecker;
 			sourceTree = "<group>";
 		};
 		DAF3D6932E01C3C300EAAD8B /* MedicineReminder */ = {
@@ -351,7 +351,7 @@
 				DAF3D6922E01C2A100EAAD8B /* ChatViewModel.swift in Sources */,
 				DAF3D6AC2E072AAF00EAAD8B /* HomeButtonView.swift in Sources */,
 				DAF3D69D2E0465A900EAAD8B /* EmergencyContactLocationViewModel.swift in Sources */,
-				DAF3D6902E01C25200EAAD8B /* SymtomCheckerBotView.swift in Sources */,
+				DAF3D6902E01C25200EAAD8B /*    SymptomCheckerBotView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

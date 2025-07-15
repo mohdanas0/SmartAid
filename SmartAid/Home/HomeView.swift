@@ -21,7 +21,7 @@ struct HomeView: View {
                     .padding(.top)
 
                 LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 35) {
-                    NavigationLink(destination: SymtomCheckerBotView()) {
+                    NavigationLink(destination: SymptomCheckerBotView()) {
                         HomeButtonView(icon: "stethoscope", label: "Symptom\nChecker", color: Color.blue)
                     }
 
